@@ -3,15 +3,20 @@
 <head>
 <title>Calculator</title>
 <script>
-function inverse(){
+function inversel(){
 	var num=document.getElementById("n1");
 	num.value=1/num.value;
+}
+function multil(){
+	var num=document.getElementById("n1");
+	num.value=2*num.value;
 }
 </script>
 </head>
 <body>
 	<input type="text" id="n1" onclick="empty()">
-	<button onclick="inverse()">1/x</button>
+	<button onclick="inversel()">1/x</button>
+	<button onclick="multil()">1__x</button>
 
 </body>
 </html>
